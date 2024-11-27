@@ -9,7 +9,7 @@ import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.Date;
 
-@WebServlet(name = "com.example.servertime2.ServerTimeServlet", value = "/index1")
+@WebServlet(name = "com.example.servertime2.ServerTimeServlet", urlPatterns = "/index")
 public class ServerTimeServlet extends HttpServlet {
 	@Override
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
